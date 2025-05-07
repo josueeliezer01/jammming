@@ -1,6 +1,5 @@
 const clientId = "fc1e7aee90a54215bee173adfdd474d9"; // Insert client ID here.
-const redirectUri = "http://192.168.1.193:3000"; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
-let accessToken;
+const redirectUri = "https://josueeliezer01.github.io/jammming/"
 
 const Spotify = {
   getAccessToken() {
